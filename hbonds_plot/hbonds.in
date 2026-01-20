@@ -1,0 +1,10 @@
+parm 6UML-LVS-solv.prmtop
+trajin 6UML-LVS-NVT_1.nc
+trajin 6UML-LVS-NVT_2.nc
+trajin 6UML-LVS-NVT_3.nc
+trajin 6UML-LVS-NVT_4.mdcrd
+trajin 6UML-LVS-NVT_5.nc
+hbond contacts :1-408 avgout 6UML-POM.out series uuseries hbond.gnu nointramol
+go
+lifetime contacts[solutehb] out contacts-lifetime-dat
+run
